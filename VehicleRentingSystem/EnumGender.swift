@@ -11,3 +11,4 @@ import Foundation
 enum Gender
 {
   case Male, Female, Other
+}

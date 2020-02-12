@@ -10,6 +10,7 @@
 		9BA3377E23F4A9BA0083B546 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3377D23F4A9BA0083B546 /* main.swift */; };
 		9BA3378523F4AA330083B546 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3378423F4AA330083B546 /* Person.swift */; };
 		9BA3379123F4C5F70083B546 /* EnumGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3379023F4C5F70083B546 /* EnumGender.swift */; };
+		9BA3379323F4C6300083B546 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3379223F4C6300083B546 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		9BA3377D23F4A9BA0083B546 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BA3378423F4AA330083B546 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9BA3379023F4C5F70083B546 /* EnumGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumGender.swift; sourceTree = "<group>"; };
+		9BA3379223F4C6300083B546 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				9BA3377D23F4A9BA0083B546 /* main.swift */,
 				9BA3378423F4AA330083B546 /* Person.swift */,
 				9BA3379023F4C5F70083B546 /* EnumGender.swift */,
+				9BA3379223F4C6300083B546 /* Customer.swift */,
 			);
 			path = VehicleRentingSystem;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				9BA3379123F4C5F70083B546 /* EnumGender.swift in Sources */,
 				9BA3378523F4AA330083B546 /* Person.swift in Sources */,
 				9BA3377E23F4A9BA0083B546 /* main.swift in Sources */,
+				9BA3379323F4C6300083B546 /* Customer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
