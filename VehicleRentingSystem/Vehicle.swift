@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class Vehicle
+{
+    var vechicleId:String?
+    var vehicleDetails:String?
+    var manufacturerName:String?
+    var vehicleIsSelfDrive:String?
+    var vehicleDriverName:String?
+    var vehicleIsInsured:String?
+    var insuranceProviderName:String?
+    var noOfSeats:Int?
+    var fuelType:FuelType?
+    var baseRatePerDay:Float?
+    var ratePerKilometer:Float?
+}
