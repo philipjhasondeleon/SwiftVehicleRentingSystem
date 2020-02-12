@@ -1,5 +1,5 @@
 //
-//  DisplayDelegate.swift
+//  EnumGender.swift
 //  VehicleRentingSystem
 //
 //  Created by MacStudent on 2020-02-12.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol DisplayDelegate
+enum Gender
 {
-    func Display()
+  case Male, Female, Other
 }

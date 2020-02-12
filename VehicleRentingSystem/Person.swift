@@ -8,11 +8,6 @@
 
 import Foundation
 
-
-enum Gender
-{
-  case Male, Female, Other
-}
 class Person
 {
    
@@ -30,9 +25,6 @@ class Person
     var emailId: String
     var userName: String
     var passWord: String
-    
-   
-  
    
     init(id:Int, firstName:String, lastName:String, gender:Gender, birthDate:Date, mobileNumber: Int, emailId: String, userName: String, passWord: String)
     {
