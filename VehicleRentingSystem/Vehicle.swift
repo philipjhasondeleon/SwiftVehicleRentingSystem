@@ -8,9 +8,8 @@
 
 import Foundation
 
-import Foundation
 
-class Vehicle
+class Vehicle:DisplayDelegate
 {
     var vechicleId:String?
     var vehicleDetails:String?
@@ -37,5 +36,21 @@ class Vehicle
         self.fuelType = fuelType;
         self.baseRatePerDay = baseRatePerDay;
         self.ratePerKilometer = ratePerKilometer;
+    }
+    
+    func display()
+    {
+        print("vehicleId        : \(self.vechicleId)")
+        print("Details          : \(self.vehicleDetails)")
+        print("ManufacturerName : \(self.manufacturerName)")
+        print("IsSelfDrive      : \(self.vehicleIsSelfDrive)")
+        print("DriverName       : \(self.vehicleDriverName)")
+        print("IsInsured        : \(self.vehicleIsInsured)")
+        print("InsuranceProviderName : \(self.insuranceProviderName)")
+        print("NoOfSeats        : \(self.noOfSeats))")
+        print("FuelType         : \(self.fuelType))")
+        print("baseRatePerDay   : \(self.baseRatePerDay)")
+        print("ratePerKilometer : \(self.ratePerKilometer)")
+        
     }
 }
