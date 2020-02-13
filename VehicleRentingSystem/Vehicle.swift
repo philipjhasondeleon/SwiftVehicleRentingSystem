@@ -51,6 +51,6 @@ class Vehicle:DisplayDelegate
         print("FuelType         : \(self.fuelType))")
         print("baseRatePerDay   : \(self.baseRatePerDay)")
         print("ratePerKilometer : \(self.ratePerKilometer)")
-        
     }
+    
 }
