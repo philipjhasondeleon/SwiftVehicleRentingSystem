@@ -16,7 +16,7 @@ class Person
     var firstName: String
     var lastName: String
     var gender: Gender
-    var birthDate: Date?
+    var birthDate: Date
     var age: Int
     {
         return 0
@@ -39,4 +39,13 @@ class Person
         self.passWord = passWord
         
     }
+    func display()
+       {
+           print("Id            : \(self.id)")
+           print("First Name    : \(self.firstName)")
+           print("Last Name     : \(self.lastName)")
+           print("Gender        : \(self.gender)")
+           print("BirthDate     : \(self.birthDate)")
+           print("Age           : \(self.age)")
+       }
 }
