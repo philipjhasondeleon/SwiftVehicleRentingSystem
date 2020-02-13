@@ -11,6 +11,8 @@
 		9BA3378523F4AA330083B546 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3378423F4AA330083B546 /* Person.swift */; };
 		9BA3379123F4C5F70083B546 /* EnumGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3379023F4C5F70083B546 /* EnumGender.swift */; };
 		9BA3379323F4C6300083B546 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3379223F4C6300083B546 /* Customer.swift */; };
+		9BDA4D8123F4C83900FFA05C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA4D8023F4C83900FFA05C /* Vehicle.swift */; };
+		9BDA4D8323F4C8B900FFA05C /* FuelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA4D8223F4C8B900FFA05C /* FuelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		9BA3378423F4AA330083B546 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9BA3379023F4C5F70083B546 /* EnumGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumGender.swift; sourceTree = "<group>"; };
 		9BA3379223F4C6300083B546 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9BDA4D8023F4C83900FFA05C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9BDA4D8223F4C8B900FFA05C /* FuelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +67,12 @@
 		9BA3377C23F4A9BA0083B546 /* VehicleRentingSystem */ = {
 			isa = PBXGroup;
 			children = (
+				9BA3379223F4C6300083B546 /* Customer.swift */,
+				9BA3379023F4C5F70083B546 /* EnumGender.swift */,
 				9BA3377D23F4A9BA0083B546 /* main.swift */,
 				9BA3378423F4AA330083B546 /* Person.swift */,
-				9BA3379023F4C5F70083B546 /* EnumGender.swift */,
-				9BA3379223F4C6300083B546 /* Customer.swift */,
+				9BDA4D8023F4C83900FFA05C /* Vehicle.swift */,
+				9BDA4D8223F4C8B900FFA05C /* FuelType.swift */,
 			);
 			path = VehicleRentingSystem;
 			sourceTree = "<group>";
@@ -132,7 +138,9 @@
 				9BA3379123F4C5F70083B546 /* EnumGender.swift in Sources */,
 				9BA3378523F4AA330083B546 /* Person.swift in Sources */,
 				9BA3377E23F4A9BA0083B546 /* main.swift in Sources */,
+				9BDA4D8123F4C83900FFA05C /* Vehicle.swift in Sources */,
 				9BA3379323F4C6300083B546 /* Customer.swift in Sources */,
+				9BDA4D8323F4C8B900FFA05C /* FuelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 import Foundation
 
+import Foundation
+
 class Vehicle
 {
     var vechicleId:String?
@@ -21,21 +23,4 @@ class Vehicle
     var fuelType:FuelType?
     var baseRatePerDay:Float?
     var ratePerKilometer:Float?
-
-    init(vechicleId:String,vehicleDetails:String,manufacturerName:String,  vehicleIsSelfDrive:String,vehicleDriverName:String,vehicleIsInsured:String,insuranceProviderName:String,noOfSeats:Int,fuelType:FuelType,baseRatePerDay:Float,ratePerKilometer:Float)
-    {
-        self.vechicleId = vechicleId;
-        self.vehicleDetails = vehicleDetails;
-        self.manufacturerName = manufacturerName;
-        self.vehicleIsSelfDrive = vehicleIsSelfDrive;
-        self.vehicleDriverName = vehicleDriverName;
-        self.vehicleIsInsured = vehicleIsInsured;
-        self.insuranceProviderName = insuranceProviderName;
-        self.noOfSeats = noOfSeats;
-        self.fuelType = fuelType;
-        self.baseRatePerDay = baseRatePerDay;
-        self.ratePerKilometer = ratePerKilometer;
-    }
-    
 }
-

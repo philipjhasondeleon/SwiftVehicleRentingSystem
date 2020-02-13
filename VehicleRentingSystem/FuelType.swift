@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+enum FuelType
+{
+    case Petrol,Diesel,Electric
+}
