@@ -21,6 +21,21 @@ class Vehicle
     var insuranceProviderName:String?
     var noOfSeats:Int?
     var fuelType:FuelType?
-    var baseRatePerDay:Float?
-    var ratePerKilometer:Float?
+    var baseRatePerDay:String?
+    var ratePerKilometer:String?
+    
+    init( vechicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:String,  ratePerKilometer:String)
+    {
+        self.vechicleId = vechicleId;
+        self.vehicleDetails = vehicleDetails;
+        self.manufacturerName = manufacturerName;
+        self.vehicleIsSelfDrive = vehicleIsSelfDrive;
+        self.vehicleDriverName = vehicleDriverName;
+        self.vehicleIsInsured = vehicleIsInsured;
+        self.insuranceProviderName = insuranceProviderName;
+        self.noOfSeats = noOfSeats;
+        self.fuelType = fuelType;
+        self.baseRatePerDay = baseRatePerDay;
+        self.ratePerKilometer = ratePerKilometer;
+    }
 }
