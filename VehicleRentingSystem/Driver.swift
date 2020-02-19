@@ -20,6 +20,12 @@ class Driver : Person
         self.isDrivingHistoryCleared = isDrivingHistoryCleared
         self.salary = salary
         super.init(id: id, firstName: firstName, lastName: lastName, gender: gender, birthDate: birthDate, mobileNumber: mobileNumber, emailId: emailId, userName: userName, passWord: passWord)
-        
+    }
+    override func display()
+    {
+        super.display()
+        print("DrivingLicenseNo :\(self.drivingLicenseNo)")
+        print("isDrivingHistoryCleared :\(self.isDrivingHistoryCleared)")
+        print("Salary :\(self.salary)")
     }
 }
