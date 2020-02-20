@@ -50,6 +50,6 @@ class Person
            print("First Name    : \(self.firstName)")
            print("Last Name     : \(self.lastName)")
            print("Gender        : \(self.gender)")
-           print("Age           : \(self.age)")
+           //print("Age         :\(self.age))")
        }
 }
