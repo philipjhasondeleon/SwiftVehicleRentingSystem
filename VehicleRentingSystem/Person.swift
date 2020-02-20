@@ -12,12 +12,12 @@ class Person
 {
    
    
-    var id: Int
-    var firstName: String
-    var lastName: String
-    var gender: Gender
-    var birthDate: Date
-    var age: Int
+    var id: Int?
+    var firstName: String?
+    var lastName: String?
+    var gender: Gender?
+    var birthDate: Date?
+    var age: Int?
     {
         return 0
     }

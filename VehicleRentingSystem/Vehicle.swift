@@ -8,14 +8,14 @@
 
 import Foundation
 
-enum baseRatePerDay:Int
+enum BaseRatePerDay:Int
 {
   case Car = 100
   case Motorcycle = 50
   case Bus = 250
 }
 
-enum ratePerKilometer:Int
+enum RatePerKilometer:Int
 {
   case Car = 5
   case Motorcycle = 1
@@ -26,19 +26,19 @@ enum ratePerKilometer:Int
 
 class Vehicle:DisplayDelegate
 {
-    var vehicleId:String
-    var vehicleDetails:String
-    var manufacturerName:String
-    var vehicleIsSelfDrive:String
-    var vehicleDriverName:String
-    var vehicleIsInsured:String
-    var insuranceProviderName:String
-    var noOfSeats:Int
-    var fuelType:FuelType
-    var baseRatePerDay:String
-    var ratePerKilometer:String
+    var vehicleId:String?
+    var vehicleDetails:String?
+    var manufacturerName:String?
+    var vehicleIsSelfDrive:String?
+    var vehicleDriverName:String?
+    var vehicleIsInsured:String?
+    var insuranceProviderName:String?
+    var noOfSeats:Int?
+    var fuelType:FuelType?
+    var baseRatePerDay:BaseRatePerDay?
+    var ratePerKilometer:RatePerKilometer?
     
-    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:String,  ratePerKilometer:String)
+    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:BaseRatePerDay,  ratePerKilometer:RatePerKilometer)
     {
         self.vehicleId = vehicleId
         self.vehicleDetails = vehicleDetails
