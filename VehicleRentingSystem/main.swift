@@ -9,5 +9,3 @@
 import Foundation
 
 
-var sample1 = Customer(id: 1, firstName: "asd", lastName: "asd", gender: .Female, birthDate: Date(), mobileNumber: 1123, emailId: "1231", userName: "asda", passWord: "asdaf", address: "asdad", city: "asdas", vehicleRentList: "asd")
-sample1.display()

@@ -10,7 +10,8 @@ import Foundation
 
 extension Date {
 
-func toString(format: String = "yyyy-MMM-dd") -> String {
+func toString(format: String = "yyyy-MMM-dd") -> String
+{
     let formatter = DateFormatter()
     formatter.dateStyle = .short
     formatter.dateFormat = format
