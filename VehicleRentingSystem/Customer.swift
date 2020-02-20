@@ -21,4 +21,10 @@ class Customer: Person
         self.vehicleRentList = vehicleRentList
         super.init(id: id, firstName: firstName, lastName: lastName, gender: gender, birthDate: birthDate, mobileNumber: mobileNumber, emailId: emailId, userName: userName, passWord: passWord)
     }
+    override func display()
+    {
+        print("Adress :\(self.address)")
+        print("City:\(self.city)")
+        print("VehicleRentList:\(self.vehicleRentList)")
+    }
 }
