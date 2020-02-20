@@ -19,4 +19,11 @@ class Car: Vehicle
         self.carColor=carColor
         super.init(vehicleId: vechicleId, vehicleDetails: vehicleDetails, manufacturerName: manufacturerName, vehicleIsSelfDrive: vehicleIsSelfDrive, vehicleDriverName: vehicleDriverName, vehicleIsInsured: vehicleIsInsured, insuranceProviderName: insuranceProviderName, noOfSeats: noOfSeats, fuelType: fuelType, baseRatePerDay: baseRatePerDay, ratePerKilometer: ratePerKilometer)
     }
+    
+    override func display()
+    {
+        super.display()
+        print("CarType  :\(self.carType)")
+        print("CarColor :\(self.carColor)")
+    }
 }
