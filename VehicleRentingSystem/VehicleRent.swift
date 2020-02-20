@@ -8,7 +8,7 @@
 
 import Foundation
 
-class VehicleRent
+class VehicleRent: DisplayDelegate
 {
     var rentStartDate: Date
     var rentEndDate: Date
@@ -25,5 +25,15 @@ class VehicleRent
         self.vehicle = vehicle
         self.noOfKmDrived = noOfKmDrived
         self.totalBillToPay = totalBillToPay
+    }
+    
+    func display()
+    {
+        print("Rent Start Date: \(rentStartDate)")
+        print("Rent End Date: \(rentEndDate)")
+        print("Rent In No. of Days: \(rentInNoOfDays)")
+        print("Vehicle: \(vehicle)")
+        print("No. of Km Drived: \(noOfKmDrived)")
+        print("Total Bill to Pay: \(totalBillToPay)")
     }
 }
