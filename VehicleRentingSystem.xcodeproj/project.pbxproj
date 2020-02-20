@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B474D4623FE07BC00B31B78 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B474D4523FE07BC00B31B78 /* Bus.swift */; };
 		9BA3377E23F4A9BA0083B546 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3377D23F4A9BA0083B546 /* main.swift */; };
 		9BA3378523F4AA330083B546 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3378423F4AA330083B546 /* Person.swift */; };
 		9BA3379123F4C5F70083B546 /* EnumGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3379023F4C5F70083B546 /* EnumGender.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B474D4523FE07BC00B31B78 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
 		9BA3377A23F4A9BA0083B546 /* VehicleRentingSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VehicleRentingSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA3377D23F4A9BA0083B546 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BA3378423F4AA330083B546 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -76,8 +78,9 @@
 				9BA3378423F4AA330083B546 /* Person.swift */,
 				9BA337A923F4D7490083B546 /* Driver.swift */,
 				9BA3379223F4C6300083B546 /* Customer.swift */,
-				9BDA4D8023F4C83900FFA05C /* Vehicle.swift */,
 				9BDA4D8223F4C8B900FFA05C /* FuelType.swift */,
+				9BDA4D8023F4C83900FFA05C /* Vehicle.swift */,
+				9B474D4523FE07BC00B31B78 /* Bus.swift */,
 				9BA3377B23F4A9BA0083B546 /* Products */,
 				9BDA4D9923F4E17E00FFA05C /* DisplayDelegate.swift */,
 			);
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B474D4623FE07BC00B31B78 /* Bus.swift in Sources */,
 				9BA3379123F4C5F70083B546 /* EnumGender.swift in Sources */,
 				9BDA4D9A23F4E17E00FFA05C /* DisplayDelegate.swift in Sources */,
 				9BA337AA23F4D7490083B546 /* Driver.swift in Sources */,

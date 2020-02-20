@@ -11,36 +11,36 @@ import Foundation
 
 class Vehicle:DisplayDelegate
 {
-    var vechicleId:String?
-    var vehicleDetails:String?
-    var manufacturerName:String?
-    var vehicleIsSelfDrive:String?
-    var vehicleDriverName:String?
-    var vehicleIsInsured:String?
-    var insuranceProviderName:String?
-    var noOfSeats:Int?
-    var fuelType:FuelType?
-    var baseRatePerDay:String?
-    var ratePerKilometer:String?
+    var vehicleId:String
+    var vehicleDetails:String
+    var manufacturerName:String
+    var vehicleIsSelfDrive:String
+    var vehicleDriverName:String
+    var vehicleIsInsured:String
+    var insuranceProviderName:String
+    var noOfSeats:Int
+    var fuelType:FuelType
+    var baseRatePerDay:String
+    var ratePerKilometer:String
     
-    init( vechicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:String,  ratePerKilometer:String)
+    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:String,  ratePerKilometer:String)
     {
-        self.vechicleId = vechicleId;
-        self.vehicleDetails = vehicleDetails;
-        self.manufacturerName = manufacturerName;
-        self.vehicleIsSelfDrive = vehicleIsSelfDrive;
-        self.vehicleDriverName = vehicleDriverName;
-        self.vehicleIsInsured = vehicleIsInsured;
-        self.insuranceProviderName = insuranceProviderName;
-        self.noOfSeats = noOfSeats;
-        self.fuelType = fuelType;
-        self.baseRatePerDay = baseRatePerDay;
-        self.ratePerKilometer = ratePerKilometer;
+        self.vehicleId = vehicleId
+        self.vehicleDetails = vehicleDetails
+        self.manufacturerName = manufacturerName
+        self.vehicleIsSelfDrive = vehicleIsSelfDrive
+        self.vehicleDriverName = vehicleDriverName
+        self.vehicleIsInsured = vehicleIsInsured
+        self.insuranceProviderName = insuranceProviderName
+        self.noOfSeats = noOfSeats
+        self.fuelType = fuelType
+        self.baseRatePerDay = baseRatePerDay
+        self.ratePerKilometer = ratePerKilometer
     }
     
     func display()
     {
-        print("vehicleId        : \(self.vechicleId)")
+        print("vehicleId        : \(self.vehicleId)")
         print("Details          : \(self.vehicleDetails)")
         print("ManufacturerName : \(self.manufacturerName)")
         print("IsSelfDrive      : \(self.vehicleIsSelfDrive)")
