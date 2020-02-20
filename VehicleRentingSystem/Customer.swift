@@ -23,8 +23,9 @@ class Customer: Person
     }
     override func display()
     {
-        print("Adress :\(self.address)")
-        print("City:\(self.city)")
-        print("VehicleRentList:\(self.vehicleRentList)")
+        super.display()
+        print("Adress           :\(self.address)")
+        print("City             :\(self.city)")
+        print("VehicleRentList  :\(self.vehicleRentList)")
     }
 }
