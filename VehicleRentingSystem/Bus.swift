@@ -19,4 +19,10 @@ var isWifiAvailable: Bool
         self.isWifiAvailable = isWifiAvailable
         super.init(vehicleId: vehicleId, vehicleDetails: vehicleDetails, manufacturerName: manufacturerName, vehicleIsSelfDrive: vehicleIsSelfDrive, vehicleDriverName: vehicleDriverName, vehicleIsInsured: vehicleIsInsured, insuranceProviderName: insuranceProviderName, noOfSeats: noOfSeats, fuelType: fuelType, baseRatePerDay: baseRatePerDay, ratePerKilometer: ratePerKilometer)
     }
+    override func display()
+    {
+        super.display()
+        print("Accessibility Service Available: \(self.isAccessibilityServiceAvailble)")
+        print("WifiAvailable: \(self.isWifiAvailable)")
+    }
 }
