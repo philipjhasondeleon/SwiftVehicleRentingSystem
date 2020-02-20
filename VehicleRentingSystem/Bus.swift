@@ -10,9 +10,9 @@ import Foundation
 
 class Bus: Vehicle
 {
-    var typeOfBus: String
-    var isAccessibilityServiceAvailble: Bool
-    var isWifiAvailable: Bool
+    var typeOfBus: String?
+    var isAccessibilityServiceAvailble: Bool?
+    var isWifiAvailable: Bool?
 
     init(vehicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: String, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: BaseRatePerDay, ratePerKilometer: RatePerKilometer,typeOfBus: String, isAccessibilityServiceAvailble: Bool, isWifiAvailable: Bool)
     {

@@ -10,12 +10,12 @@ import Foundation
 
 class VehicleRent: DisplayDelegate
 {
-    var rentStartDate: Date
-    var rentEndDate: Date
-    var rentInNoOfDays: Int
-    var vehicle: String
-    var noOfKmDrived: Int
-    var totalBillToPay: Double
+    var rentStartDate: Date?
+    var rentEndDate: Date?
+    var rentInNoOfDays: Int?
+    var vehicle: String?
+    var noOfKmDrived: Int?
+    var totalBillToPay: Double?
     
     init(rentStartDate: Date, rentEndDate: Date, rentInNoOfDays: Int, vehicle: String, noOfKmDrived: Int, totalBillToPay: Double)
     {

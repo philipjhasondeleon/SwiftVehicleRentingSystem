@@ -26,17 +26,17 @@ enum RatePerKilometer:Int
 
 class Vehicle:DisplayDelegate
 {
-    var vehicleId:String
-    var vehicleDetails:String
-    var manufacturerName:String
-    var vehicleIsSelfDrive:String
-    var vehicleDriverName:String
-    var vehicleIsInsured:String
-    var insuranceProviderName:String
-    var noOfSeats:Int
-    var fuelType:FuelType
-    var baseRatePerDay:BaseRatePerDay
-    var ratePerKilometer:RatePerKilometer
+    var vehicleId:String?
+    var vehicleDetails:String?
+    var manufacturerName:String?
+    var vehicleIsSelfDrive:String?
+    var vehicleDriverName:String?
+    var vehicleIsInsured:String?
+    var insuranceProviderName:String?
+    var noOfSeats:Int?
+    var fuelType:FuelType?
+    var baseRatePerDay:BaseRatePerDay?
+    var ratePerKilometer:RatePerKilometer?
     
     init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:BaseRatePerDay,  ratePerKilometer:RatePerKilometer)
     {
