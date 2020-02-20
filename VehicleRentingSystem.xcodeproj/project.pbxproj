@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B10D3FC23FE16BD0091BCE4 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10D3FB23FE16BD0091BCE4 /* Car.swift */; };
 		9B474D4623FE07BC00B31B78 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B474D4523FE07BC00B31B78 /* Bus.swift */; };
 		9B474D4823FE14B600B31B78 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B474D4723FE14B600B31B78 /* Motor.swift */; };
 		9BA3377E23F4A9BA0083B546 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3377D23F4A9BA0083B546 /* main.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B10D3FB23FE16BD0091BCE4 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		9B474D4523FE07BC00B31B78 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
 		9B474D4723FE14B600B31B78 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
 		9BA3377A23F4A9BA0083B546 /* VehicleRentingSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VehicleRentingSystem; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +86,9 @@
 				9BDA4D8023F4C83900FFA05C /* Vehicle.swift */,
 				9B474D4723FE14B600B31B78 /* Motor.swift */,
 				9B474D4523FE07BC00B31B78 /* Bus.swift */,
-				9BA3377B23F4A9BA0083B546 /* Products */,
 				9BDA4D9923F4E17E00FFA05C /* DisplayDelegate.swift */,
+				9B10D3FB23FE16BD0091BCE4 /* Car.swift */,
+				9BA3377B23F4A9BA0083B546 /* Products */,
 			);
 			path = VehicleRentingSystem;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				9BA3378523F4AA330083B546 /* Person.swift in Sources */,
 				9BA3377E23F4A9BA0083B546 /* main.swift in Sources */,
 				9BDA4D8123F4C83900FFA05C /* Vehicle.swift in Sources */,
+				9B10D3FC23FE16BD0091BCE4 /* Car.swift in Sources */,
 				9B474D4823FE14B600B31B78 /* Motor.swift in Sources */,
 				9BA3379323F4C6300083B546 /* Customer.swift in Sources */,
 				9BDA4D8323F4C8B900FFA05C /* FuelType.swift in Sources */,
