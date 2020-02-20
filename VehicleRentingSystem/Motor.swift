@@ -19,4 +19,10 @@ class Motor: Vehicle
         self.milage = milage
         super.init(vehicleId: vehicleId, vehicleDetails: vehicleDetails, manufacturerName: manufacturerName, vehicleIsSelfDrive: vehicleIsSelfDrive, vehicleDriverName: vehicleDriverName, vehicleIsInsured: vehicleIsInsured, insuranceProviderName: insuranceProviderName, noOfSeats: noOfSeats, fuelType: fuelType, baseRatePerDay: baseRatePerDay, ratePerKilometer: ratePerKilometer)
     }
+    override func display()
+    {
+        super.display()
+        print("Max Top Speed    : \(self.maxTopSpeed)")
+        print("Milage           : \(self.milage)")  
+    }
 }
