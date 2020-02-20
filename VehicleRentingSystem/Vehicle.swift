@@ -8,6 +8,21 @@
 
 import Foundation
 
+enum baseRatePerDay:Int
+{
+  case Car = 100
+  case Motorcycle = 50
+  case Bus = 250
+}
+
+enum ratePerKilometer:Int
+{
+  case Car = 5
+  case Motorcycle = 1
+  case Bus = 7
+}
+
+
 
 class Vehicle:DisplayDelegate
 {
