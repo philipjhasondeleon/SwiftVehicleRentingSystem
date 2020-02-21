@@ -15,6 +15,10 @@ class Person
     var id: Int
     var firstName: String
     var lastName: String
+    var fullName: String
+    {
+        return "\(firstName) \(lastName)"
+    }
     var gender: Gender
     var birthDate: Date
     var mobileNumber: Int
