@@ -12,13 +12,12 @@ class Customer: Person
 {
     var address: String?
     var city: String?
-    var vehicleRentList: [String:Vehicle]
+    var vehicleRentList = [String:Vehicle]()
 
-    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: Int, emailId: String, userName: String, passWord: String, address: String, city: String, vehicleRentList: [String:Vehicle])
+    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: Int, emailId: String, userName: String, passWord: String, address: String, city: String)
     {
         self.address = address
         self.city = city
-        self.vehicleRentList = vehicleRentList
         super.init(id: id, firstName: firstName, lastName: lastName, gender: gender, birthDate: birthDate, mobileNumber: mobileNumber, emailId: emailId, userName: userName, passWord: passWord)
     }
     override func display()
