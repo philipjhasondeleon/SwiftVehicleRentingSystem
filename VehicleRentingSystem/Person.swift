@@ -43,8 +43,7 @@ class Person
     func display()
        {
            print("Id               :\(self.id)")
-           print("First Name       :\(self.firstName)")
-           print("Last Name        :\(self.lastName)")
+           print("Full Name           :\(self.fullName)")
            print("Gender           :\(self.gender)")
            print("Age              :\(self.birthDate.getAge())")
            print("MobileNumber     :\(self.mobileNumber)")
