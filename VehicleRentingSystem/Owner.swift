@@ -15,7 +15,7 @@ class Owner: Person
     var website : String
     var vehicleListOwned = [String: Vehicle]()
     
-    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: Int, emailId: String, userName: String, passWord: String, companyTitle : String, businessLandLineNo : Int, website : String)
+    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: Date, mobileNumber: Int, emailId: String, userName: String, passWord: String, companyTitle : String, businessLandLineNo : Int, website : String)
     {
         self.companyTitle = companyTitle
         self.businessLandLineNo = businessLandLineNo
