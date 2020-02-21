@@ -17,5 +17,12 @@ func toString(format: String = "yyyy-MMM-dd") -> String
     formatter.dateFormat = format
     return formatter.string(from: self)
 }
+    func getAge() -> Int
+    {
+      let calender = Calendar.current
+      let dateComponent = calender.dateComponents([.year], from: self, to: Date())
+       
+      return dateComponent.year ?? 0
+    }
 }
 
