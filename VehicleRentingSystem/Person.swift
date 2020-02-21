@@ -12,11 +12,11 @@ class Person
 {
    
    
-    var id: Int?
-    var firstName: String?
-    var lastName: String?
-    var gender: Gender?
-    var birthDate: String?
+    var id: Int
+    var firstName: String
+    var lastName: String
+    var gender: Gender
+    var birthDate: String
     var mobileNumber: Int
     var emailId: String
     var userName: String
@@ -44,10 +44,11 @@ class Person
     */
     func display()
        {
-           print("Id            : \(self.id)")
-           print("First Name    : \(self.firstName)")
-           print("Last Name     : \(self.lastName)")
-           print("Gender        : \(self.gender)")
-           //print("Age         :\(self.age))")
+           print("Id               :\(self.id)")
+           print("First Name       :\(self.firstName)")
+           print("Last Name        :\(self.lastName)")
+           print("Gender           :\(self.gender)")
+           print("MobileNumber     :\(self.mobileNumber)")
+           print("EmailID          :\(self.emailId)")
        }
 }
