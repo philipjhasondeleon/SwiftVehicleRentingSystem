@@ -14,6 +14,12 @@ var c3=Customer(id: 3, firstName: "Philip", lastName: "Jhason", gender: .Male, b
 var c4=Customer(id: 4, firstName: "Jennifer", lastName: "Jis", gender: .Male, birthDate: Date.from(year: 1986, month: 6, day: 9), mobileNumber: 987654323, emailId: "je@gmail.com", userName: "je", passWord: "je1", address: "Seminole", city: "Toronto")
 var c5=Customer(id: 5, firstName: "Jis", lastName: "Jiyo", gender: .Male, birthDate: Date.from(year: 1976, month: 10, day: 26), mobileNumber: 9876543214, emailId: "jis@gmail.com", userName: "jis", passWord: "jis1", address: "Miramer", city: "Toronto")
 
+var d1 = Driver(id: 1, firstName: "Pepillo", lastName: "Kitman", gender: .Male, birthDate: Date(), mobileNumber: 3078389817, emailId:"pkitman0@reuters.com" , userName: "pkitman0", passWord: "FUYGNBaggBD7", drivingLicenseNo: "C1273-6361-2413", isDrivingHistoryCleared: true, salary: 39931)
+var d2 = Driver(id: 2, firstName: "Claudio", lastName: "Pedley", gender: .Male, birthDate: Date(), mobileNumber: 8651017004, emailId: "cpedley1@unc.edu", userName: "cpedley1", passWord: "xGN14vfkHIl", drivingLicenseNo: "U3599-0371-8768", isDrivingHistoryCleared: false, salary: 92129)
+var d3 = Driver(id: 3, firstName: "Nerti", lastName: "Maynell", gender: .Female, birthDate: Date(), mobileNumber: 3473808054, emailId: "nmaynell2@yandex.ru", userName: "nmaynell2", passWord: "0WDTAu0r5NF", drivingLicenseNo: "R1313-8499-5445", isDrivingHistoryCleared: true, salary: 47706)
+var d4 = Driver(id: 4, firstName: "Raynor", lastName: "Stimpson", gender: .Male, birthDate: Date(), mobileNumber: 9125278838, emailId: "rstimpson3@mozilla.com", userName: "rstimpson3", passWord: "TALT66zFc", drivingLicenseNo: "M6855-0303-0360", isDrivingHistoryCleared: true, salary: 74000)
+var d5 = Driver(id: 5, firstName: "Robb", lastName: "Seton", gender: .Male, birthDate: Date(), mobileNumber: 1109340421, emailId: "rseton4@alibaba.com", userName: "rseton4", passWord: "W4j2wkmAjex", drivingLicenseNo: "X1059-2321-6215", isDrivingHistoryCleared: true, salary: 52392)
+
 var customers=[Customer]()
 customers.append(c1)
 customers.append(c2)
