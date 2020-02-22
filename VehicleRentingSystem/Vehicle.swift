@@ -49,7 +49,7 @@ class Vehicle:DisplayDelegate
         print("NoOfSeats             : \(self.noOfSeats)")
         print("FuelType              : \(self.fuelType)")
         print("baseRatePerDay        : \(self.baseRatePerDay.currency())")
-        print("ratePerKilometer      : \(self.ratePerKilometer)")
+        print("ratePerKilometer      : \(self.ratePerKilometer.currency())")
     }
     
 }

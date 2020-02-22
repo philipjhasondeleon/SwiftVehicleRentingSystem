@@ -14,7 +14,7 @@ class Bus: Vehicle
     var isAccessibilityServiceAvailble:String
     var isWifiAvailable: String
 
-    init(vehicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: String, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Int, ratePerKilometer: Int,typeOfBus: String, isAccessibilityServiceAvailble: String, isWifiAvailable: String)
+    init(vehicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: String, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Double, ratePerKilometer: Double,typeOfBus: String, isAccessibilityServiceAvailble: String, isWifiAvailable: String)
     {
         self.typeOfBus = typeOfBus
         self.isAccessibilityServiceAvailble = isAccessibilityServiceAvailble
