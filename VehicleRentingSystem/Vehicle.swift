@@ -8,37 +8,21 @@
 
 import Foundation
 
-enum BaseRatePerDay:Int
-{
-  case Car = 100
-  case Motorcycle = 50
-  case Bus = 250
-}
-
-enum RatePerKilometer:Int
-{
-  case Car = 5
-  case Motorcycle = 1
-  case Bus = 7
-}
-
-
-
 class Vehicle:DisplayDelegate
 {
-    var vehicleId:String?
-    var vehicleDetails:String?
-    var manufacturerName:String?
-    var vehicleIsSelfDrive:String?
-    var vehicleDriverName:String?
-    var vehicleIsInsured:String?
-    var insuranceProviderName:String?
-    var noOfSeats:Int?
-    var fuelType:FuelType?
-    var baseRatePerDay:BaseRatePerDay?
-    var ratePerKilometer:RatePerKilometer?
+    var vehicleId:String
+    var vehicleDetails:String
+    var manufacturerName:String
+    var vehicleIsSelfDrive:String
+    var vehicleDriverName:String
+    var vehicleIsInsured:String
+    var insuranceProviderName:String
+    var noOfSeats:Int
+    var fuelType:FuelType
+    var baseRatePerDay:Int
+    var ratePerKilometer:Int
     
-    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:BaseRatePerDay,  ratePerKilometer:RatePerKilometer)
+    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:Int,  ratePerKilometer:Int)
     {
         self.vehicleId = vehicleId
         self.vehicleDetails = vehicleDetails
@@ -55,17 +39,17 @@ class Vehicle:DisplayDelegate
     
     func display()
     {
-        print("vehicleId        : \(self.vehicleId)")
-        print("Details          : \(self.vehicleDetails)")
-        print("ManufacturerName : \(self.manufacturerName)")
-        print("IsSelfDrive      : \(self.vehicleIsSelfDrive)")
-        print("DriverName       : \(self.vehicleDriverName)")
-        print("IsInsured        : \(self.vehicleIsInsured)")
+        print("vehicleId             : \(self.vehicleId)")
+        print("Details               : \(self.vehicleDetails)")
+        print("ManufacturerName      : \(self.manufacturerName)")
+        print("IsSelfDrive           : \(self.vehicleIsSelfDrive)")
+        print("DriverName            : \(self.vehicleDriverName)")
+        print("IsInsured             : \(self.vehicleIsInsured)")
         print("InsuranceProviderName : \(self.insuranceProviderName)")
-        print("NoOfSeats        : \(self.noOfSeats))")
-        print("FuelType         : \(self.fuelType))")
-        print("baseRatePerDay   : \(self.baseRatePerDay)")
-        print("ratePerKilometer : \(self.ratePerKilometer)")
+        print("NoOfSeats             : \(self.noOfSeats)")
+        print("FuelType              : \(self.fuelType)")
+        print("baseRatePerDay        : \(self.baseRatePerDay)")
+        print("ratePerKilometer      : \(self.ratePerKilometer)")
     }
     
 }

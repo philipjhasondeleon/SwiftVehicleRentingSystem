@@ -35,19 +35,21 @@ var d4 = Driver(id: 4, firstName: "Raynor", lastName: "Stimpson", gender: .Male,
 var d5 = Driver(id: 5, firstName: "Robb", lastName: "Seton", gender: .Male, birthDate: Date(), mobileNumber: 1109340421, emailId: "rseton4@alibaba.com", userName: "rseton4", passWord: "W4j2wkmAjex", drivingLicenseNo: "X1059-2321-6215", isDrivingHistoryCleared: true, salary: 52392)
 
 //BUS DETAILS
-var b1=Bus(vehicleId:"1GD01XEG5FZ726187", vehicleDetails: "Focused actuating help-desk", manufacturerName: "Chevrolet ", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Pepillo  Kitman ", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 40, fuelType: .Diesel, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "coach", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
-var b2=Bus(vehicleId: "3N1CN7AP4DL356756", vehicleDetails: "Enhanced tertiary Graphical User Interface", manufacturerName: "Ford ", vehicleIsSelfDrive: "TRUE ", vehicleDriverName: "NULL", vehicleIsInsured: "TRUE", insuranceProviderName: "Intact Insurance", noOfSeats: 30, fuelType: .Diesel, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "Double-decker", isAccessibilityServiceAvailble: "FALSE", isWifiAvailable: "FALSE")
-var b3=Bus(vehicleId: "1G4HC5EM9BU946298", vehicleDetails: "Devolved directional firmware", manufacturerName: "Buick", vehicleIsSelfDrive: "TRUE", vehicleDriverName: "NULL", vehicleIsInsured: "TRUE", insuranceProviderName: "Jevco", noOfSeats: 45, fuelType: .Petrol, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "Minibus", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "TRUE")
-var b4=Bus(vehicleId: "WBAAV33461F067610", vehicleDetails: "Realigned object-oriented interface ", manufacturerName: "Nissan", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Krystle Wilbore", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 32, fuelType: .Petrol, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "Double-decker", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
+var b1=Bus(vehicleId:"1GD01XEG5FZ726187", vehicleDetails: "Focused actuating help-desk", manufacturerName: "Chevrolet ", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Pepillo  Kitman ", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 40, fuelType: .Diesel, baseRatePerDay: 250, ratePerKilometer: 7, typeOfBus: "coach", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
+var b2=Bus(vehicleId: "3N1CN7AP4DL356756", vehicleDetails: "Enhanced tertiary Graphical User Interface", manufacturerName: "Ford ", vehicleIsSelfDrive: "TRUE ", vehicleDriverName: "NULL", vehicleIsInsured: "TRUE", insuranceProviderName: "Intact Insurance", noOfSeats: 30, fuelType: .Diesel, baseRatePerDay: 250, ratePerKilometer: 7, typeOfBus: "Double-decker", isAccessibilityServiceAvailble: "FALSE", isWifiAvailable: "FALSE")
+var b3=Bus(vehicleId: "1G4HC5EM9BU946298", vehicleDetails: "Devolved directional firmware", manufacturerName: "Buick", vehicleIsSelfDrive: "TRUE", vehicleDriverName: "NULL", vehicleIsInsured: "TRUE", insuranceProviderName: "Jevco", noOfSeats: 45, fuelType: .Petrol, baseRatePerDay: 250, ratePerKilometer: 7, typeOfBus: "Minibus", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "TRUE")
+var b4=Bus(vehicleId: "WBAAV33461F067610", vehicleDetails: "Realigned object-oriented interface ", manufacturerName: "Nissan", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Krystle Wilbore", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 32, fuelType: .Petrol, baseRatePerDay: 250, ratePerKilometer: 7, typeOfBus: "Double-decker", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
+var b5=Bus(vehicleId: "3VWML7AJ9CM519278", vehicleDetails: "Decentralized contextually-based orchestration", manufacturerName: "Ford", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Natty Annakin", vehicleIsInsured: "FALSE", insuranceProviderName: "NULL", noOfSeats: 34, fuelType: .Diesel, baseRatePerDay: 250, ratePerKilometer: 7, typeOfBus: "Coach", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "TRUE")
 
-
-/*
-                           
-                               Petrol    $ 250    $ 7
-3VWML7AJ9CM519278    Decentralized contextually-based orchestration    Ford    FALSE    Natty Annakin    FALSE        34    Diesel    $ 250    $ 7    Coach    TRUE    FALSE
-5J8TB1H59CA210111    Exclusive web-enabled challenge    BMW    TRUE        FALSE        34    Petrol    $ 250    $ 7    Minibus    FALSE    FALSE
-WBAGH03421D302807    Total scalable definition    Isuzu    FALSE    Natty Annakin    TRUE    Intact Insurance    34    Petrol    $ 250    $ 7    School bus    TRUE    FALSE
-1C6RD7MT2CS263986    Reactive stable middleware    Chevrolet    FALSE    Robb Seton    FALSE        41    Diesel    $ 250    $ 7    Minibus    FALSE    FALSE
-1C4RDHEG9EC794096    Assimilated eco-centric process improvement    Toyota    FALSE    Krystle Wilbore    TRUE    Aviva    35    Diesel    $ 250    $ 7    Double-decker    FALSE    TRUE*/
-
-
+var bus=[Bus]()
+bus.append(b1)
+bus.append(b2)
+bus.append(b3)
+bus.append(b4)
+bus.append(b5)
+print("*******All Customers*********")
+for i in bus
+{
+    i.display()
+    print("*******************")
+}
