@@ -33,7 +33,8 @@ for i in customers
     print("*******************")
 }
 
-var b1=Bus(vehicleId:"1GD01XEG5FZ726187", vehicleDetails: "Focused actuating help-desk", manufacturerName: "Chevrolet ", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Pepillo  Kitman ", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 40, fuelType: .Diesel, baseRatePerDay: 250 , ratePerKilometer: 7, typeOfBus: "coach", isAccessibilityServiceAvailble: TRUE, isWifiAvailable: FALSE)
+var b1=Bus(vehicleId:"1GD01XEG5FZ726187", vehicleDetails: "Focused actuating help-desk", manufacturerName: "Chevrolet ", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Pepillo  Kitman ", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 40, fuelType: .Diesel, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "coach", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
+
 
 
 

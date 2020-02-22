@@ -17,7 +17,8 @@ extension Date {
         formatter.dateFormat = format
         return formatter.string(from: self)
     }
-    static func from(year: Int, month: Int, day: Int) -> Date? {
+    static func from(year: Int, month: Int, day: Int) -> Date?
+    {
       let calendar = Calendar(identifier: .gregorian)
       var dateComponents = DateComponents()
       dateComponents.year = year
