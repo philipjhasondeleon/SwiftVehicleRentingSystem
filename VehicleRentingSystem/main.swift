@@ -41,6 +41,8 @@ var b3=Bus(vehicleId: "1G4HC5EM9BU946298", vehicleDetails: "Devolved directional
 var b4=Bus(vehicleId: "WBAAV33461F067610", vehicleDetails: "Realigned object-oriented interface ", manufacturerName: "Nissan", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Krystle Wilbore", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 32, fuelType: .Petrol, baseRatePerDay: 250, ratePerKilometer: 7, typeOfBus: "Double-decker", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
 var b5=Bus(vehicleId: "3VWML7AJ9CM519278", vehicleDetails: "Decentralized contextually-based orchestration", manufacturerName: "Ford", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Natty Annakin", vehicleIsInsured: "FALSE", insuranceProviderName: "NULL", noOfSeats: 34, fuelType: .Diesel, baseRatePerDay: 250, ratePerKilometer: 7, typeOfBus: "Coach", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "TRUE")
 
+
+
 var bus=[Bus]()
 bus.append(b1)
 bus.append(b2)
@@ -53,3 +55,11 @@ for i in bus
     i.display()
     print("*******************")
 }
+
+var m1 = Motor(vehicleId: "WBA3B9C51DJ591682", vehicleDetails: "Right-sized 24/7 projection", manufacturerName: "Harley Davidson", vehicleIsSelfDrive: "false", vehicleDriverName: "Pepillo Kit", vehicleIsInsured: "false", insuranceProviderName: "Beatty Group", noOfSeats: 2, fuelType:.Petrol, baseRatePerDay: 50, ratePerKilometer: 1, maxTopSpeed: 71, milage: 41)
+var m2 = Motor(vehicleId: "WBAVB13506K975623", vehicleDetails: "Multi-lateral needs-based superstructure", manufacturerName: "Ducati", vehicleIsSelfDrive: "true", vehicleDriverName: "Kitman Pal", vehicleIsInsured: "true", insuranceProviderName: "Tremblay LLC", noOfSeats: 1, fuelType: .Diesel, baseRatePerDay: 50, ratePerKilometer: 1, maxTopSpeed: 59, milage: 36)
+var m3 = Motor(vehicleId: "JH4DB76611S323929", vehicleDetails: "Multi-tiered context-sensitive projection", manufacturerName: "BMW", vehicleIsSelfDrive: "false", vehicleDriverName: "Krystle Wilbore", vehicleIsInsured: "false", insuranceProviderName: "Strosin Inc", noOfSeats: 2, fuelType: .Diesel, baseRatePerDay: 50, ratePerKilometer: 1, maxTopSpeed: 65, milage: 23)
+var m4 = Motor(vehicleId: "5N1AR2MM1FC633287", vehicleDetails: "Secured local encryption", manufacturerName: "Aprillia", vehicleIsSelfDrive: "true", vehicleDriverName: "Valeria Berr", vehicleIsInsured: "true", insuranceProviderName: "Hills Inc", noOfSeats: 1, fuelType: .Petrol, baseRatePerDay: 50, ratePerKilometer: 1, maxTopSpeed: 57, milage: 32)
+var m5 = Motor(vehicleId: "JM1CW2CL1F0860981", vehicleDetails: "Intuitive client-server concept", manufacturerName: "Suzuki", vehicleIsSelfDrive: "true", vehicleDriverName: "Maria Mher", vehicleIsInsured: "false", insuranceProviderName: "Lind Inc", noOfSeats: 1, fuelType: .Diesel, baseRatePerDay: 50, ratePerKilometer: 1, maxTopSpeed: 90, milage: 36)
+
+
