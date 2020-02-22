@@ -8,11 +8,11 @@
 
 import Foundation
 
-extension Int
+extension Double
 {
-func currency() -> String
+    func currency()->String
     {
-    let s = String.init(format: "$%.2f", self)      
-    return s
+        let s=String.init(format:"$%.f",self)
+        return s
     }
 }

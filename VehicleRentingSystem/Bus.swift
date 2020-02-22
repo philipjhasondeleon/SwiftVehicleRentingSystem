@@ -14,7 +14,7 @@ class Bus: Vehicle
     var isAccessibilityServiceAvailble:String
     var isWifiAvailable: String
 
-    init(vehicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: String, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Int, ratePerKilometer: Int,typeOfBus: String, isAccessibilityServiceAvailble: String, isWifiAvailable: String)
+    init(vehicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: String, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Double, ratePerKilometer: Double,typeOfBus: String, isAccessibilityServiceAvailble: String, isWifiAvailable: String)
     {
         self.typeOfBus = typeOfBus
         self.isAccessibilityServiceAvailble = isAccessibilityServiceAvailble
@@ -24,8 +24,8 @@ class Bus: Vehicle
     override func display()
     {
         super.display()
-        print("Type of Bus: \(typeOfBus)")
-        print("Accessibility Service Available: \(self.isAccessibilityServiceAvailble)")
-        print("WifiAvailable: \(self.isWifiAvailable)")
+        print("Type of Bus           : \(self.typeOfBus)")
+        print("Service Available     : \(self.isAccessibilityServiceAvailble)")
+        print("WifiAvailable         : \(self.isWifiAvailable)")
     }
 }
