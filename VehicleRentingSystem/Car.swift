@@ -14,7 +14,7 @@ class Car: Vehicle
     var carColor:String?
     var driverList=[Int:Driver]()
     
-    init(vechicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: String, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Double, ratePerKilometer: Double, carType:String, carColor:String)
+    init(vechicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: Bool, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Double, ratePerKilometer: Double, carType:String, carColor:String)
     {
         self.carType=carType
         self.carColor=carColor
@@ -36,5 +36,16 @@ class Car: Vehicle
         super.display()
         print("CarType  :\(self.carType)")
         print("CarColor :\(self.carColor)")
+        if driverList.count == 0
+        {
+            print("HAVE NO DRIVER")
+        }
+        else
+        {
+            for i in driverList
+            {
+                i.value.display()
+            }
+        }
     }
 }

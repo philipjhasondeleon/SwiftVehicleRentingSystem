@@ -13,7 +13,7 @@ class Vehicle:DisplayDelegate
     var vehicleId:String
     var vehicleDetails:String
     var manufacturerName:String
-    var vehicleIsSelfDrive:String
+    var vehicleIsSelfDrive:Bool
     var vehicleDriverName:String
     var vehicleIsInsured:String
     var insuranceProviderName:String
@@ -22,7 +22,7 @@ class Vehicle:DisplayDelegate
     var baseRatePerDay:Double
     var ratePerKilometer:Double
     
-    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:Double,  ratePerKilometer:Double)
+    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:Bool,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:Double,  ratePerKilometer:Double)
     {
         self.vehicleId = vehicleId
         self.vehicleDetails = vehicleDetails
