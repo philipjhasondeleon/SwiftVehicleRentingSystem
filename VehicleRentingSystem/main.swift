@@ -38,12 +38,12 @@ var d5 = Driver(id: 5, firstName: "Robb", lastName: "Seton", gender: .Male, birt
 var b1=Bus(vehicleId:"1GD01XEG5FZ726187", vehicleDetails: "Focused actuating help-desk", manufacturerName: "Chevrolet ", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Pepillo  Kitman ", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 40, fuelType: .Diesel, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "coach", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
 var b2=Bus(vehicleId: "3N1CN7AP4DL356756", vehicleDetails: "Enhanced tertiary Graphical User Interface", manufacturerName: "Ford ", vehicleIsSelfDrive: "TRUE ", vehicleDriverName: "NULL", vehicleIsInsured: "TRUE", insuranceProviderName: "Intact Insurance", noOfSeats: 30, fuelType: .Diesel, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "Double-decker", isAccessibilityServiceAvailble: "FALSE", isWifiAvailable: "FALSE")
 var b3=Bus(vehicleId: "1G4HC5EM9BU946298", vehicleDetails: "Devolved directional firmware", manufacturerName: "Buick", vehicleIsSelfDrive: "TRUE", vehicleDriverName: "NULL", vehicleIsInsured: "TRUE", insuranceProviderName: "Jevco", noOfSeats: 45, fuelType: .Petrol, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "Minibus", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "TRUE")
-
+var b4=Bus(vehicleId: "WBAAV33461F067610", vehicleDetails: "Realigned object-oriented interface ", manufacturerName: "Nissan", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Krystle Wilbore", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 32, fuelType: .Petrol, baseRatePerDay: BaseRatePerDay.Bus, ratePerKilometer: RatePerKilometer.Bus, typeOfBus: "Double-decker", isAccessibilityServiceAvailble: "TRUE", isWifiAvailable: "FALSE")
 
 
 /*
                            
-WBAAV33461F067610    Realigned object-oriented interface    Nissan    FALSE    Krystle Wilbore    TRUE    Aviva    32    Petrol    $ 250    $ 7    Double-decker    TRUE    FALSE
+                               Petrol    $ 250    $ 7
 3VWML7AJ9CM519278    Decentralized contextually-based orchestration    Ford    FALSE    Natty Annakin    FALSE        34    Diesel    $ 250    $ 7    Coach    TRUE    FALSE
 5J8TB1H59CA210111    Exclusive web-enabled challenge    BMW    TRUE        FALSE        34    Petrol    $ 250    $ 7    Minibus    FALSE    FALSE
 WBAGH03421D302807    Total scalable definition    Isuzu    FALSE    Natty Annakin    TRUE    Intact Insurance    34    Petrol    $ 250    $ 7    School bus    TRUE    FALSE
