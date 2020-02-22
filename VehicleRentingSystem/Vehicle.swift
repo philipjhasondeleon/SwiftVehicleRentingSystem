@@ -20,9 +20,9 @@ class Vehicle:DisplayDelegate
     var noOfSeats:Int
     var fuelType:FuelType
     var baseRatePerDay:Double
-    var ratePerKilometer:Int
+    var ratePerKilometer:Double
     
-    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:Double,  ratePerKilometer:Int)
+    init( vehicleId:String,  vehicleDetails:String,  manufacturerName:String,  vehicleIsSelfDrive:String,  vehicleDriverName:String,  vehicleIsInsured:String,  insuranceProviderName:String,  noOfSeats:Int,  fuelType:FuelType,  baseRatePerDay:Double,  ratePerKilometer:Double)
     {
         self.vehicleId = vehicleId
         self.vehicleDetails = vehicleDetails
@@ -48,7 +48,7 @@ class Vehicle:DisplayDelegate
         print("InsuranceProviderName : \(self.insuranceProviderName)")
         print("NoOfSeats             : \(self.noOfSeats)")
         print("FuelType              : \(self.fuelType)")
-        print("baseRatePerDay        : \(self.baseRatePerDay)")
+        print("baseRatePerDay        : \(self.baseRatePerDay.currency())")
         print("ratePerKilometer      : \(self.ratePerKilometer)")
     }
     
