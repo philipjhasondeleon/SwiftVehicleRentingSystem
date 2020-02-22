@@ -20,7 +20,7 @@ class Person
         return "\(firstName) \(lastName)"
     }
     var gender: Gender
-    var birthDate: Date?
+    var birthDate: Date
     var mobileNumber: Int
     var emailId: String
     var userName: String

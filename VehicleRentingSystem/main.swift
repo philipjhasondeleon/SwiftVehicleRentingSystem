@@ -12,9 +12,9 @@ var c1=Customer(id: 1, firstName: "Anmariya", lastName: "Francis", gender: .Fema
 var c2=Customer(id: 2, firstName: "Aldin", lastName: "Jose", gender: .Male, birthDate:Date.from(year: 1995, month: 4, day: 6), mobileNumber: 9876543211, emailId: "al@gmail.com", userName: "al", passWord: "al1", address: "Brimely", city: "Toronto")
 var c3=Customer(id: 3, firstName: "Philip", lastName: "Jhason", gender: .Male, birthDate: Date.from(year: 1997, month: 3, day: 2), mobileNumber: 9876543212, emailId: "ph@gmail.com", userName: "ph", passWord: "ph1", address: "Kenndey", city: "Toronto")
 var c4=Customer(id: 4, firstName: "Jennifer", lastName: "Jis", gender: .Male, birthDate: Date.from(year: 1986, month: 6, day: 9), mobileNumber: 987654323, emailId: "je@gmail.com", userName: "je", passWord: "je1", address: "Seminole", city: "Toronto")
+var c5=Customer(id: 5, firstName: "Jis", lastName: "Jiyo", gender: .Male, birthDate: Date.from(year: 1976, month: 10, day: 26), mobileNumber: 9876543214, emailId: "jis@gmail.com", userName: "jis", passWord: "jis1", address: "Miramer", city: "Toronto")
 
-
-/* var customers=[Customer]()
+var customers=[Customer]()
 customers.append(c1)
 customers.append(c2)
 customers.append(c3)
@@ -25,7 +25,7 @@ for i in customers
 {
     i.display()
     print("*******************")
-}*/
+}
 
 var b1=Bus(vehicleId:"1GD01XEG5FZ726187", vehicleDetails: "Focused actuating help-desk", manufacturerName: "Chevrolet ", vehicleIsSelfDrive: "FALSE", vehicleDriverName: "Pepillo  Kitman ", vehicleIsInsured: "TRUE", insuranceProviderName: "Aviva", noOfSeats: 40, fuelType: .Diesel, baseRatePerDay: 250 , ratePerKilometer: 7, typeOfBus: "coach", isAccessibilityServiceAvailble: TRUE, isWifiAvailable: FALSE)
 
