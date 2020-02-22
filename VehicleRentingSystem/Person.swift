@@ -20,7 +20,7 @@ class Person
         return "\(firstName) \(lastName)"
     }
     var gender: Gender
-    var birthDate: Date
+    var birthDate: Date?
     var mobileNumber: Int
     var emailId: String
     var userName: String
@@ -43,7 +43,7 @@ class Person
     func display()
        {
            print("Id               :\(self.id)")
-           print("Full Name           :\(self.fullName)")
+           print("Full Name        :\(self.fullName)")
            print("Gender           :\(self.gender)")
            print("Age              :\(self.birthDate.getAge())")
            print("MobileNumber     :\(self.mobileNumber)")
