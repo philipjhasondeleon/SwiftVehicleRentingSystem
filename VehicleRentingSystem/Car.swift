@@ -12,12 +12,23 @@ class Car: Vehicle
 {
     var carType:String?
     var carColor:String?
+    var driverList=[Int:Driver]()
     
     init(vechicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: String, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Double, ratePerKilometer: Double, carType:String, carColor:String)
     {
         self.carType=carType
         self.carColor=carColor
         super.init(vehicleId: vechicleId, vehicleDetails: vehicleDetails, manufacturerName: manufacturerName, vehicleIsSelfDrive: vehicleIsSelfDrive, vehicleDriverName: vehicleDriverName, vehicleIsInsured: vehicleIsInsured, insuranceProviderName: insuranceProviderName, noOfSeats: noOfSeats, fuelType: fuelType, baseRatePerDay: baseRatePerDay, ratePerKilometer: ratePerKilometer)
+    }
+    
+    func addDriver(drivers: Driver, driverId: Int)
+    {
+        driverList.updateValue(drivers, forKey: driverId)
+    }
+    
+    func removeDriver(driverId: Int)
+    {
+        driverList.removeValue(forKey: driverId)
     }
     
     override func display()
