@@ -49,7 +49,7 @@ bus.append(b2)
 bus.append(b3)
 bus.append(b4)
 bus.append(b5)
-print("*******All Customers*********")
+print("*******All Bus Details*********")
 for i in bus
 {
     i.display()
