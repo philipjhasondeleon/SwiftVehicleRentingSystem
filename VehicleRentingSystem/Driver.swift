@@ -14,7 +14,7 @@ class Driver : Person
     var isDrivingHistoryCleared : Bool?
     var salary : Double?
 
-    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: Int, emailId: String, userName: String, passWord: String, drivingLicenseNo: String, isDrivingHistoryCleared : Bool, salary : Double)
+    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: Date, mobileNumber: Int, emailId: String, userName: String, passWord: String, drivingLicenseNo: String, isDrivingHistoryCleared : Bool, salary : Double)
     {
         self.drivingLicenseNo = drivingLicenseNo
         self.isDrivingHistoryCleared = isDrivingHistoryCleared
