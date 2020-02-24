@@ -87,14 +87,28 @@ c4.addVehicleRent(vehicleRents: b5)
 c5.addVehicleRent(vehicleRents: m4)
 
 
-var customers=[Customer]()
-customers.append(c1)
-customers.append(c2)
-customers.append(c3)
-customers.append(c4)
-customers.append(c5)
-print("*******All Customers*********")
-for i in customers
+var person=[Person]()
+person.append(c1)
+person.append(c2)
+person.append(c3)
+person.append(c4)
+person.append(c5)
+
+person.append(o1)
+person.append(o2)
+person.append(o3)
+person.append(o4)
+person.append(o5)
+
+person.append(d1)
+person.append(d2)
+person.append(d3)
+person.append(d4)
+person.append(d5)
+
+
+print("*******All Person Details*********")
+for i in person
 {
     i.display()
     print("*****************************************")
