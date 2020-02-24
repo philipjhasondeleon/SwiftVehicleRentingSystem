@@ -13,19 +13,16 @@ class VehicleRent: DisplayDelegate
     var rentStartDate: Date?
     var rentEndDate: Date?
     var rentInNoOfDays: Int?
-    var vehicle: String?
     var noOfKmDrived: Int?
     var totalBillToPay: Double?
     var vehicles = [String: Vehicle]()
     
-    init(rentStartDate: Date, rentEndDate: Date, rentInNoOfDays: Int, vehicle: String, noOfKmDrived: Int, totalBillToPay: Double)
+    init(rentStartDate: Date, rentEndDate: Date, rentInNoOfDays: Int, noOfKmDrived: Int)
     {
         self.rentStartDate = rentStartDate
         self.rentEndDate = rentEndDate
         self.rentInNoOfDays = rentInNoOfDays
-        self.vehicle = vehicle
         self.noOfKmDrived = noOfKmDrived
-        self.totalBillToPay = totalBillToPay
     }
     
    func addVehicle(vehicle: Vehicle, vehicleId: String)
@@ -43,7 +40,6 @@ class VehicleRent: DisplayDelegate
         print("Rent Start Date: \(rentStartDate)")
         print("Rent End Date: \(rentEndDate)")
         print("Rent In No. of Days: \(rentInNoOfDays)")
-        print("Vehicle: \(vehicle)")
         print("No. of Km Drived: \(noOfKmDrived)")
         print("Total Bill to Pay: \(totalBillToPay)")
     }
