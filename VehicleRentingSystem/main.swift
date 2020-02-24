@@ -54,8 +54,6 @@ if (b1.vehicleIsSelfDrive == false)
     b1.addDriver(drivers: d5)
 }
 
-
-
 var bus=[Bus]()
 bus.append(b1)
 bus.append(b2)
@@ -89,3 +87,10 @@ var car2 = Car(vechicleId:"5N1CR2MNXEC181212", vehicleDetails: "Networked backgr
 var car3 = Car(vechicleId: "WAUUL98EX8A747315", vehicleDetails: "Reverse-engineered motivating moderator", manufacturerName: "Buick", vehicleIsSelfDrive: false, vehicleDriverName: "Robb Seton", vehicleIsInsured: "true", insuranceProviderName: "Intact Insurance", noOfSeats: 6, fuelType: .Diesel, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Park Avenue", carColor: "Pink")
 var car4 = Car(vechicleId: "ZHWGU5BZ0CL457896", vehicleDetails: "Multi-lateral content-based customer loyalty", manufacturerName: "Ford", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "false", insuranceProviderName: "null", noOfSeats: 8, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Aerostar", carColor: "Mauv")
 var car5 = Car(vechicleId: "WAU4FAFL0AA424617", vehicleDetails: "Persistent fault-tolerant focus group", manufacturerName: "Suzuki", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "false", insuranceProviderName: "null", noOfSeats: 7, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "String", carColor: "Crimson")
+
+//ADDING VEHICLE RENTED
+var r1=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 15), rentEndDate: Date.from(year: 2020, month: 1, day: 16), rentInNoOfDays: 2, noOfKmDrived: 150)
+var r2=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 2), rentEndDate: Date.from(year: 2020, month: 1, day: 2), rentInNoOfDays: 1, noOfKmDrived: 50)
+var r3=VehicleRent
+
+
