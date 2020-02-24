@@ -15,7 +15,7 @@ class VehicleRent: DisplayDelegate
     var rentInNoOfDays: Int?
     var noOfKmDrived: Int?
     var totalBillToPay: Double?
-    var vehicles = [String: Vehicle]()
+    var vehicleList = [String: Vehicle]()
     
     init(rentStartDate: Date?, rentEndDate: Date?, rentInNoOfDays: Int, noOfKmDrived: Int)
     {
@@ -25,15 +25,15 @@ class VehicleRent: DisplayDelegate
         self.noOfKmDrived = noOfKmDrived
     }
     
-   func addVehicle(vehicle: Vehicle, vehicleId: String)
-   {
-       vehicles.updateValue(vehicle, forKey: vehicleId)
-   }
-   
-   func removeVehicle(vehicleId: String)
-   {
-       vehicles.removeValue(forKey: vehicleId)
-   }
+    func addVehicle(vehicles: Vehicle)
+    {
+        vehicleList.updateValue(vehicles, forKey: vehicles.vehicleId)
+    }
+    
+    func removeVehicle(vehicleId: String)
+    {
+        vehicleList.removeValue(forKey: vehicleId)
+    }
     
     func display()
     {

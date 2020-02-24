@@ -88,13 +88,20 @@ var car3 = Car(vechicleId: "WAUUL98EX8A747315", vehicleDetails: "Reverse-enginee
 var car4 = Car(vechicleId: "ZHWGU5BZ0CL457896", vehicleDetails: "Multi-lateral content-based customer loyalty", manufacturerName: "Ford", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "false", insuranceProviderName: "null", noOfSeats: 8, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Aerostar", carColor: "Mauv")
 var car5 = Car(vechicleId: "WAU4FAFL0AA424617", vehicleDetails: "Persistent fault-tolerant focus group", manufacturerName: "Suzuki", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "false", insuranceProviderName: "null", noOfSeats: 7, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "String", carColor: "Crimson")
 
-//ADDING VEHICLE RENTED
+//vehicle rent object
 var r1=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 15), rentEndDate: Date.from(year: 2020, month: 1, day: 16), rentInNoOfDays: 2, noOfKmDrived: 150)
 var r2=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 2), rentEndDate: Date.from(year: 2020, month: 1, day: 2), rentInNoOfDays: 1, noOfKmDrived: 50)
 var r3=VehicleRent(rentStartDate: Date.from(year: 2020, month: 2, day: 4), rentEndDate:Date.from(year: 2020, month: 2, day: 4), rentInNoOfDays: 1, noOfKmDrived: 65)
 var r4=VehicleRent(rentStartDate: Date.from(year: 2020, month: 3, day: 2), rentEndDate: Date.from(year: 2020, month: 3, day: 3), rentInNoOfDays: 2, noOfKmDrived: 71)
 var r5=VehicleRent(rentStartDate: Date.from(year: 2020, month: 4, day: 3), rentEndDate: Date.from(year: 2020, month: 4, day: 5), rentInNoOfDays: 3, noOfKmDrived: 105)
-//comment
+
+//adding vehicle
+r1.addVehicle(vehicles: m1)
+r2.addVehicle(vehicles: b5)
+r3.addVehicle(vehicles: car2)
+r4.addVehicle(vehicles: m4)
+r5.addVehicle(vehicles: b1)
+
 
 
 
