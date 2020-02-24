@@ -20,6 +20,17 @@ class Customer: Person
         self.city = city
         super.init(id: id, firstName: firstName, lastName: lastName, gender: gender, birthDate: birthDate, mobileNumber: mobileNumber, emailId: emailId, userName: userName, passWord: passWord)
     }
+    
+    func addVehicleRent(vehicleRents: Vehicle)
+    {
+        vehicleRentList.updateValue(vehicleRents, forKey: vehicleRents.vehicleId)
+    }
+    
+    func removeVehicleRent(vehicleId: String)
+    {
+        vehicleRentList.removeValue(forKey: vehicleId)
+    }
+    
     override func display()
     {
         super.display()

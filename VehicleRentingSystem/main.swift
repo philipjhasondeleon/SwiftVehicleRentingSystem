@@ -14,18 +14,6 @@ var c3=Customer(id: 3, firstName: "Philip", lastName: "Jhason", gender: .Male, b
 var c4=Customer(id: 4, firstName: "Jennifer", lastName: "Jis", gender: .Male, birthDate: Date.from(year: 1986, month: 6, day: 9), mobileNumber: 987654323, emailId: "je@gmail.com", userName: "je", passWord: "je1", address: "Seminole", city: "Toronto")
 var c5=Customer(id: 5, firstName: "Jis", lastName: "Jiyo", gender: .Male, birthDate: Date.from(year: 1976, month: 10, day: 26), mobileNumber: 9876543214, emailId: "jis@gmail.com", userName: "jis", passWord: "jis1", address: "Miramer", city: "Toronto")
 
-var customers=[Customer]()
-customers.append(c1)
-customers.append(c2)
-customers.append(c3)
-customers.append(c4)
-customers.append(c5)
-print("*******All Customers*********")
-for i in customers
-{
-    i.display()
-    print("*****************************************")
-}
 
 // DRIVER DETAILS
 var d1 = Driver(id: 1, firstName: "Pepillo", lastName: "Kitman", gender: .Male, birthDate: Date(), mobileNumber: 3078389817, emailId:"pkitman0@reuters.com" , userName: "pkitman0", passWord: "FUYGNBaggBD7", drivingLicenseNo: "C1273-6361-2413", isDrivingHistoryCleared: true, salary: 39931)
@@ -54,18 +42,7 @@ if (b1.vehicleIsSelfDrive == false)
     b1.addDriver(drivers: d5)
 }
 
-var bus=[Bus]()
-bus.append(b1)
-bus.append(b2)
-bus.append(b3)
-bus.append(b4)
-bus.append(b5)
-print("*******All Bus Details*********")
-for i in bus
-{
-    i.display()
-    print("************************************************")
-}
+
 
 //MOTORCYCLE DEAILS
 var m1 = Motor(vehicleId: "WBA3B9C51DJ591682", vehicleDetails: "Right-sized 24/7 projection", manufacturerName: "Harley Davidson", vehicleIsSelfDrive: false, vehicleDriverName: "Pepillo Kit", vehicleIsInsured: "false", insuranceProviderName: "Beatty Group", noOfSeats: 2, fuelType:.Petrol, baseRatePerDay: 50, ratePerKilometer: 1, maxTopSpeed: 71, milage: 41)
@@ -102,6 +79,49 @@ r3.addVehicle(vehicles: car2)
 r4.addVehicle(vehicles: m4)
 r5.addVehicle(vehicles: b1)
 
+//adding rented vehicles in customer class
+c1.addVehicleRent(vehicleRents: m1)
+c2.addVehicleRent(vehicleRents: car2)
+c3.addVehicleRent(vehicleRents: b1)
+c4.addVehicleRent(vehicleRents: b5)
+c5.addVehicleRent(vehicleRents: m4)
 
 
+var customers=[Customer]()
+customers.append(c1)
+customers.append(c2)
+customers.append(c3)
+customers.append(c4)
+customers.append(c5)
+print("*******All Customers*********")
+for i in customers
+{
+    i.display()
+    print("*****************************************")
+}
 
+var vehicles=[Vehicle]()
+vehicles.append(b1)
+vehicles.append(b2)
+vehicles.append(b3)
+vehicles.append(b4)
+vehicles.append(b5)
+
+vehicles.append(m1)
+vehicles.append(m2)
+vehicles.append(m3)
+vehicles.append(m4)
+vehicles.append(m5)
+
+vehicles.append(car1)
+vehicles.append(car2)
+vehicles.append(car3)
+vehicles.append(car4)
+vehicles.append(car5)
+
+print("*******All Vehicles Details*********")
+for i in vehicles
+{
+    i.display()
+    print("************************************************")
+}
