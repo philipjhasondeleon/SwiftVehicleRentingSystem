@@ -92,6 +92,6 @@ var car5 = Car(vechicleId: "WAU4FAFL0AA424617", vehicleDetails: "Persistent faul
 var r1=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 15), rentEndDate: Date.from(year: 2020, month: 1, day: 16), rentInNoOfDays: 2, noOfKmDrived: 150)
 var r2=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 2), rentEndDate: Date.from(year: 2020, month: 1, day: 2), rentInNoOfDays: 1, noOfKmDrived: 50)
 var r3=VehicleRent(rentStartDate: Date.from(year: 2020, month: 2, day: 4), rentEndDate:Date.from(year: 2020, month: 2, day: 4), rentInNoOfDays: 1, noOfKmDrived: 65)
-var r4=Veh
+var r4=VehicleRent(rentStartDate: Date.from(year: 2020, month: 3, day: 2), rentEndDate: Date.from(year: 2020, month: 3, day: 3), rentInNoOfDays: 2, noOfKmDrived: 71)
 
 
