@@ -34,7 +34,7 @@ class Motor: Vehicle
     override func display()
     {
         super.display()
-        print("Max Top Speed    : \(self.maxTopSpeed)")
-        print("Milage           : \(self.milage)")  
+        print("Max Top Speed         : \(self.maxTopSpeed)")
+        print("Milage                : \(self.milage)")
     }
 }

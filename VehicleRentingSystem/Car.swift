@@ -34,8 +34,8 @@ class Car: Vehicle
     override func display()
     {
         super.display()
-        print("CarType  :\(self.carType)")
-        print("CarColor :\(self.carColor)")
+        print("CarType               :\(self.carType)")
+        print("CarColor              :\(self.carColor)")
         if driverList.count == 0
         {
             print("HAVE NO DRIVER")
