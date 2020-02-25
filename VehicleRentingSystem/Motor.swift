@@ -36,5 +36,6 @@ class Motor: Vehicle
         super.display()
         print("Max Top Speed         : \(self.maxTopSpeed)")
         print("Milage                : \(self.milage)")
+        
     }
 }

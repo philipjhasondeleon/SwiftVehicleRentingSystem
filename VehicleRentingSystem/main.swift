@@ -58,8 +58,6 @@ var o3 = Owner(id: 3, firstName: "Andre", lastName: "Elnough", gender: .Male, bi
 var o4 = Owner (id: 4, firstName: "Kalindi", lastName: "Spensly", gender: .Female, birthDate: Date(), mobileNumber: 8632253855, emailId: "kspensly3@oaic.gov.au", userName: "kspensly3", passWord: "5FWUMy", companyTitle: "Twitterbeat", businessLandLineNo: 9125937336, website: "macromedia.com")
 var o5 = Owner(id: 5, firstName: "Eveline", lastName: "Lumox", gender: .Female, birthDate: Date(), mobileNumber: 7217650492, emailId: "elumox4@weather.com", userName: "elumox4", passWord: "fwNXQKCkTVW", companyTitle: "Leenti", businessLandLineNo: 6544720600, website: "europa.eu")
 
-
-
 //CAR OBJECTS
 var car1 = Car(vechicleId: "WBA3A5C55CF202202", vehicleDetails: "Visionary optimal neural-net", manufacturerName: "Scion", vehicleIsSelfDrive: false, vehicleDriverName: "Pepillo Kitman", vehicleIsInsured: "false", insuranceProviderName: "asd", noOfSeats: 6, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "tC", carColor: "Yellow")
 var car2 = Car(vechicleId:"5N1CR2MNXEC181212", vehicleDetails: "Networked background initiative", manufacturerName: "Ford", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "true", insuranceProviderName: "Aviva", noOfSeats: 8, fuelType: .Diesel, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Econoline E150", carColor: "Violet")
