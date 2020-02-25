@@ -102,35 +102,6 @@ c4.addVehicleRent(vehicleRents: b5)
 c5.addVehicleRent(vehicleRents: m4)
 
 
-var customers=[Customer]()
-customers.append(c1)
-customers.append(c2)
-customers.append(c3)
-customers.append(c4)
-customers.append(c5)
-
-var owners=[Owner]()
-owners.append(o1)
-owners.append(o2)
-owners.append(o3)
-owners.append(o4)
-owners.append(o5)
-
-var drivers=[Driver]()
-drivers.append(d1)
-drivers.append(d2)
-drivers.append(d3)
-drivers.append(d4)
-drivers.append(d5)
-
-
-print("*******All Person Details*********")
-for i in person
-{
-    i.display()
-    
-}
-
 var vehicles=[Vehicle]()
 vehicles.append(b1)
 vehicles.append(b2)
@@ -150,9 +121,54 @@ vehicles.append(car3)
 vehicles.append(car4)
 vehicles.append(car5)
 
+var customers=[Customer]()
+customers.append(c1)
+customers.append(c2)
+customers.append(c3)
+customers.append(c4)
+customers.append(c5)
+
+print("*******All Customer Details*********")
+for i in customers
+{
+    i.display()
+    print("***************************************")
+    
+}
+
+var owners=[Owner]()
+owners.append(o1)
+owners.append(o2)
+owners.append(o3)
+owners.append(o4)
+owners.append(o5)
+
+print("*******All Owner Details*********")
+for i in owners
+{
+    i.display()
+    print("***************************************")
+    
+}
+
+var drivers=[Driver]()
+drivers.append(d1)
+drivers.append(d2)
+drivers.append(d3)
+drivers.append(d4)
+drivers.append(d5)
+
+print("*******All Driver Details*********")
+for i in drivers
+{
+    i.display()
+    
+}
+
 print("*******All Vehicles Details*********")
 for i in vehicles
 {
     i.display()
     print("************************************************")
 }
+

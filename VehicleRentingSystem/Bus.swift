@@ -39,17 +39,9 @@ class Bus: Vehicle
         print("Type of Bus           : \(self.typeOfBus)")
         print("Service Available     : \(self.isAccessibilityServiceAvailble)")
         print("WifiAvailable         : \(self.isWifiAvailable)")
-        if driverList.count == 0
-        {
-            print("HAVE NO DRIVER")
-        }
-        else
-        {
-            for i in driverList
+        for i in driverList
             {
                 i.value.display()
             }
-        }
-         
     }
 }

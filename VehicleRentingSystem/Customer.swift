@@ -36,6 +36,11 @@ class Customer: Person
         super.display()
         print("Adress           :\(self.address)")
         print("City             :\(self.city)")
-        print("VehicleRentList  :\(self.vehicleRentList)")
+        print("VehicleRentList")
+        print("------------------")
+        for i in vehicleRentList
+        {
+                i.value.display()
+        }
     }
 }
