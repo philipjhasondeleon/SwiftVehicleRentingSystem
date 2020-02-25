@@ -34,12 +34,18 @@ class Owner: Person
     }
 
     
-    override func display() {
+    override func display()
+    {
         super.display()
         print("Company Title      : \(self.companyTitle)")
         print("LandLine No        : \(self.businessLandLineNo)")
         print("Website            : \(self.website)")
-        print("Vehicle List Owned : \(self.vehicleListOwned)")
+        print("Vehicle List Owned")
+        print("--------------------")
+        for i in vehicleListOwned
+        {
+            i.value.display()
+        }
     }
 }
 
