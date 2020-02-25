@@ -23,6 +23,17 @@ class Owner: Person
         super.init(id: id, firstName: firstName, lastName: lastName, gender: gender, birthDate: birthDate, mobileNumber: mobileNumber, emailId: emailId, userName: userName, passWord: passWord)
     }
     
+    func addVehicleListOwned(vehicles: Vehicle)
+    {
+        vehicleListOwned.updateValue(vehicles, forKey: vehicles.vehicleId)
+    }
+    
+    func removeVehicleListOwned(vehicleId: String)
+    {
+        vehicleListOwned.removeValue(forKey: vehicleId)
+    }
+
+    
     override func display() {
         super.display()
         print("Company Title: \(self.companyTitle)")
