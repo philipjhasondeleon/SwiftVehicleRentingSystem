@@ -27,6 +27,6 @@ class Driver : Person
         print("DrivingLicenseNo             :\(self.drivingLicenseNo)")
         print("isDrivingHistoryCleared      :\(self.isDrivingHistoryCleared)")
         print("Salary                       :\(self.salary)")
-        
+        print("******************************")
     }
 }

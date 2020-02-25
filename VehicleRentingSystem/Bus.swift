@@ -39,9 +39,12 @@ class Bus: Vehicle
         print("Type of Bus           : \(self.typeOfBus)")
         print("Service Available     : \(self.isAccessibilityServiceAvailble)")
         print("WifiAvailable         : \(self.isWifiAvailable)")
-        for i in driverList
-            {
-                i.value.display()
-            }
+        if driverList.count != 0
+        {
+            for i in driverList
+                {
+                    i.value.display()
+                }
+        }
     }
 }
