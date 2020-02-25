@@ -24,9 +24,9 @@ class Driver : Person
     override func display()
     {
         super.display()
-        print("DrivingLicenseNo        :\(self.drivingLicenseNo)")
-        print("isDrivingHistoryCleared :\(self.isDrivingHistoryCleared)")
-        print("Salary                  :\(self.salary)")
+        print("DrivingLicenseNo             :\(self.drivingLicenseNo)")
+        print("isDrivingHistoryCleared      :\(self.isDrivingHistoryCleared)")
+        print("Salary                       :\(self.salary)")
         print("***************************************************")
     }
 }

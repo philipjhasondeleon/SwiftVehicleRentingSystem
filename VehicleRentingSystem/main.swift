@@ -17,7 +17,6 @@ var c5=Customer(id: 5, firstName: "Jis", lastName: "Jiyo", gender: .Male, birthD
 
 // DRIVER DETAILS
 var d1 = Driver(id: 1, firstName: "Pepillo", lastName: "Kitman", gender: .Male, birthDate: Date(), mobileNumber: 3078389817, emailId:"pkitman0@reuters.com" , userName: "pkitman0", passWord: "FUYGNBaggBD7", drivingLicenseNo: "C1273-6361-2413", isDrivingHistoryCleared: true, salary: 39931)
-
 var d2 = Driver(id: 2, firstName: "Claudio", lastName: "Pedley", gender: .Male, birthDate: Date.from(year: 1990, month: 12, day: 12), mobileNumber: 8651017004, emailId: "cpedley1@unc.edu", userName: "cpedley1", passWord: "xGN14vfkHIl", drivingLicenseNo: "U3599-0371-8768", isDrivingHistoryCleared: false, salary: 92129)
 var d3 = Driver(id: 3, firstName: "Nerti", lastName: "Maynell", gender: .Female, birthDate: Date.from(year: 1990, month: 6, day: 25), mobileNumber: 3473808054, emailId: "nmaynell2@yandex.ru", userName: "nmaynell2", passWord: "0WDTAu0r5NF", drivingLicenseNo: "R1313-8499-5445", isDrivingHistoryCleared: true, salary: 47706)
 var d4 = Driver(id: 4, firstName: "Raynor", lastName: "Stimpson", gender: .Male, birthDate: Date.from(year: 1995, month: 7, day: 22), mobileNumber: 9125278838, emailId: "rstimpson3@mozilla.com", userName: "rstimpson3", passWord: "TALT66zFc", drivingLicenseNo: "M6855-0303-0360", isDrivingHistoryCleared: true, salary: 74000)
@@ -59,9 +58,17 @@ var o4 = Owner (id: 4, firstName: "Kalindi", lastName: "Spensly", gender: .Femal
 var o5 = Owner(id: 5, firstName: "Eveline", lastName: "Lumox", gender: .Female, birthDate: Date(), mobileNumber: 7217650492, emailId: "elumox4@weather.com", userName: "elumox4", passWord: "fwNXQKCkTVW", companyTitle: "Leenti", businessLandLineNo: 6544720600, website: "europa.eu")
 
 //CAR OBJECTS
-var car1 = Car(vechicleId: "WBA3A5C55CF202202", vehicleDetails: "Visionary optimal neural-net", manufacturerName: "Scion", vehicleIsSelfDrive: false, vehicleDriverName: "Pepillo Kitman", vehicleIsInsured: "false", insuranceProviderName: "asd", noOfSeats: 6, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "tC", carColor: "Yellow")
+var car1 = Car(vechicleId: "WBA3A5C55CF202202", vehicleDetails: "Visionary optimal neural-net", manufacturerName: "Scion", vehicleIsSelfDrive: false, vehicleDriverName: "Claudio Pedley", vehicleIsInsured: "false", insuranceProviderName: "asd", noOfSeats: 6, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "tC", carColor: "Yellow")
+    if(car1.vehicleIsSelfDrive==false)
+    {
+        car1.addDriver(drivers:d2)
+    }
 var car2 = Car(vechicleId:"5N1CR2MNXEC181212", vehicleDetails: "Networked background initiative", manufacturerName: "Ford", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "true", insuranceProviderName: "Aviva", noOfSeats: 8, fuelType: .Diesel, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Econoline E150", carColor: "Violet")
-var car3 = Car(vechicleId: "WAUUL98EX8A747315", vehicleDetails: "Reverse-engineered motivating moderator", manufacturerName: "Buick", vehicleIsSelfDrive: false, vehicleDriverName: "Robb Seton", vehicleIsInsured: "true", insuranceProviderName: "Intact Insurance", noOfSeats: 6, fuelType: .Diesel, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Park Avenue", carColor: "Pink")
+var car3 = Car(vechicleId: "WAUUL98EX8A747315", vehicleDetails: "Reverse-engineered motivating moderator", manufacturerName: "Buick", vehicleIsSelfDrive: false, vehicleDriverName: "Raynor Stimpson", vehicleIsInsured: "true", insuranceProviderName: "Intact Insurance", noOfSeats: 6, fuelType: .Diesel, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Park Avenue", carColor: "Pink")
+    if(car1.vehicleIsSelfDrive==false)
+    {
+        car1.addDriver(drivers:d4)
+    }
 var car4 = Car(vechicleId: "ZHWGU5BZ0CL457896", vehicleDetails: "Multi-lateral content-based customer loyalty", manufacturerName: "Ford", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "false", insuranceProviderName: "null", noOfSeats: 8, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Aerostar", carColor: "Mauv")
 var car5 = Car(vechicleId: "WAU4FAFL0AA424617", vehicleDetails: "Persistent fault-tolerant focus group", manufacturerName: "Suzuki", vehicleIsSelfDrive: true, vehicleDriverName: "null", vehicleIsInsured: "false", insuranceProviderName: "null", noOfSeats: 7, fuelType: .Petrol, baseRatePerDay: 100, ratePerKilometer: 5, carType: "Star Crimson", carColor: "Crimson")
 
@@ -119,7 +126,7 @@ print("*******All Person Details*********")
 for i in person
 {
     i.display()
-    print("*****************************************")
+    
 }
 
 var vehicles=[Vehicle]()

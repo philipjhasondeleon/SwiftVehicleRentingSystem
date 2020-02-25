@@ -21,9 +21,9 @@ class Car: Vehicle
         super.init(vehicleId: vechicleId, vehicleDetails: vehicleDetails, manufacturerName: manufacturerName, vehicleIsSelfDrive: vehicleIsSelfDrive, vehicleDriverName: vehicleDriverName, vehicleIsInsured: vehicleIsInsured, insuranceProviderName: insuranceProviderName, noOfSeats: noOfSeats, fuelType: fuelType, baseRatePerDay: baseRatePerDay, ratePerKilometer: ratePerKilometer)
     }
     
-    func addDriver(drivers: Driver, driverId: Int)
+    func addDriver(drivers: Driver)
     {
-        driverList.updateValue(drivers, forKey: driverId)
+        driverList.updateValue(drivers, forKey: drivers.id)
     }
     
     func removeDriver(driverId: Int)
