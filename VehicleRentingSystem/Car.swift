@@ -10,8 +10,8 @@ import Foundation
 
 class Car: Vehicle
 {
-    var carType:String?
-    var carColor:String?
+    var carType:String
+    var carColor:String
     var driverList=[Int:Driver]()
     
     init(vechicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: Bool, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Double, ratePerKilometer: Double, carType:String, carColor:String)

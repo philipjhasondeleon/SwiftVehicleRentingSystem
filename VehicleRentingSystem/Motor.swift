@@ -10,8 +10,8 @@ import Foundation
 
 class Motor: Vehicle
 {
-    var maxTopSpeed: Double?
-    var milage: Double?
+    var maxTopSpeed: Double
+    var milage: Double
     var driverList=[Int:Driver]()
     
     init(vehicleId: String, vehicleDetails: String, manufacturerName: String, vehicleIsSelfDrive: Bool, vehicleDriverName: String, vehicleIsInsured: String, insuranceProviderName: String, noOfSeats: Int, fuelType: FuelType, baseRatePerDay: Double, ratePerKilometer: Double, maxTopSpeed: Double, milage: Double)
