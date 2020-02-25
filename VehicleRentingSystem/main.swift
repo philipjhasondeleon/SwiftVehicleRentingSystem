@@ -81,11 +81,11 @@ o4.addVehicleListOwned(vehicles: m4)
 o5.addVehicleListOwned(vehicles: b1)
 
 //vehicle rent object
-var r1=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 15), rentEndDate: Date.from(year: 2020, month: 1, day: 16), rentInNoOfDays: 2, noOfKmDrived: 150)
-var r2=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 2), rentEndDate: Date.from(year: 2020, month: 1, day: 2), rentInNoOfDays: 1, noOfKmDrived: 50)
-var r3=VehicleRent(rentStartDate: Date.from(year: 2020, month: 2, day: 4), rentEndDate:Date.from(year: 2020, month: 2, day: 4), rentInNoOfDays: 1, noOfKmDrived: 65)
-var r4=VehicleRent(rentStartDate: Date.from(year: 2020, month: 3, day: 2), rentEndDate: Date.from(year: 2020, month: 3, day: 3), rentInNoOfDays: 2, noOfKmDrived: 71)
-var r5=VehicleRent(rentStartDate: Date.from(year: 2020, month: 4, day: 3), rentEndDate: Date.from(year: 2020, month: 4, day: 5), rentInNoOfDays: 3, noOfKmDrived: 105)
+var r1=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 15), rentEndDate: Date.from(year: 2020, month: 1, day: 16), noOfKmDrived: 150)
+var r2=VehicleRent(rentStartDate: Date.from(year: 2020, month: 1, day: 2), rentEndDate: Date.from(year: 2020, month: 1, day: 2), noOfKmDrived: 50)
+var r3=VehicleRent(rentStartDate: Date.from(year: 2020, month: 2, day: 4), rentEndDate:Date.from(year: 2020, month: 2, day: 4),  noOfKmDrived: 65)
+var r4=VehicleRent(rentStartDate: Date.from(year: 2020, month: 3, day: 2), rentEndDate: Date.from(year: 2020, month: 3, day: 3), noOfKmDrived: 71)
+var r5=VehicleRent(rentStartDate: Date.from(year: 2020, month: 4, day: 3), rentEndDate: Date.from(year: 2020, month: 4, day: 5), noOfKmDrived: 105)
 
 //adding vehicle
 r1.addVehicle(vehicles: m1)

@@ -17,11 +17,10 @@ class VehicleRent: DisplayDelegate
     var totalBillToPay: Double?
     var vehicleList = [String: Vehicle]()
     
-    init(rentStartDate: Date?, rentEndDate: Date?, rentInNoOfDays: Int, noOfKmDrived: Int)
+    init(rentStartDate: Date?, rentEndDate: Date?, noOfKmDrived: Int)
     {
         self.rentStartDate = rentStartDate
         self.rentEndDate = rentEndDate
-        self.rentInNoOfDays = rentInNoOfDays
         self.noOfKmDrived = noOfKmDrived
     }
     

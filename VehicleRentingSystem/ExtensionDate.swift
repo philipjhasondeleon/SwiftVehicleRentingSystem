@@ -30,7 +30,6 @@ extension Date {
     {
       let calender = Calendar.current
       let dateComponent = calender.dateComponents([.year], from: self, to: Date())
-       
       return dateComponent.year ?? 0
     }
 }
