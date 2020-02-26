@@ -128,9 +128,8 @@ customers.append(c3)
 customers.append(c4)
 customers.append(c5)
 
-print("************************************")
+
 print("*******All Customer Details*********")
-print("************************************")
 for i in customers
 {
     i.display()
