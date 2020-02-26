@@ -36,6 +36,7 @@ class Customer: Person
         super.display()
         print("Adress           :\(self.address)")
         print("City             :\(self.city)")
+        print("------------------")
         print("VehicleRentList")
         print("------------------")
         for i in vehicleRentList

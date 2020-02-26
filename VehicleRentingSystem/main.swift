@@ -128,7 +128,9 @@ customers.append(c3)
 customers.append(c4)
 customers.append(c5)
 
+print("************************************")
 print("*******All Customer Details*********")
+print("************************************")
 for i in customers
 {
     i.display()
@@ -143,7 +145,9 @@ owners.append(o3)
 owners.append(o4)
 owners.append(o5)
 
+print("\n\n*********************************")
 print("*******All Owner Details*********")
+print("*********************************")
 for i in owners
 {
     i.display()
@@ -164,8 +168,9 @@ for i in drivers
     i.display()
     
 }
-
+print("\n\n\n*************************************")
 print("*******All Vehicles Details*********")
+print("*************************************")
 for i in vehicles
 {
     i.display()

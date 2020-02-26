@@ -40,6 +40,7 @@ class Owner: Person
         print("Company Title      : \(self.companyTitle)")
         print("LandLine No        : \(self.businessLandLineNo)")
         print("Website            : \(self.website)")
+        print("--------------------")
         print("Vehicle List Owned")
         print("--------------------")
         for i in vehicleListOwned
